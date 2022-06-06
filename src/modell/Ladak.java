@@ -36,6 +36,17 @@ public class Ladak {
         return probalkozasEredmenye;
     }
 
+   public int[] getPoziciok() {
+        return poziciok;
+    }
+    
+    public boolean isMegLettE(){
+        return megLett_e_aKincs;
+    }
 
+    public int getProbalkozasok() {
+        return probalkozasok;
+    }
+   
 
 }
